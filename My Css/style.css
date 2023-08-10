@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: math;
+}
+
+nav{
+    width: 100%;
+    height: 70px;
+    background-color: brown;
+    padding: 5px;
+    /*background-color: burlywood;*/
+
+}
+
+header{
+    display: inline-block;
+    width: 50%;
+    /*height: 40px;*/
+    margin: auto;
+    padding: 10px;
+
+}
+
+ul{
+    display: flex;
+    /*height: 40px;*/
+    width: 50%;  
+    overflow: hidden;
+    margin: auto;
+    padding: 10px;
+    float: right;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #fefefe;
+}
+
+header h3{
+    letter-spacing: 0.15em;
+}
+
+
+
+ul li{
+    width: 120px;
+    margin: 5px;
+    padding: 5px;
+}
+
+ul li a:hover{
+    padding: 7px;
+    border-radius: 15px;
+    background-color: burlywood;
+}
+
+/* Above here is the  the nav section*/
+
+.section-1 img{
+    width: 100%;
+}
+
+.section-1 h2{
+  /*  background-color: #ffffff99;*/
+    text-align: center;
+    color: rgb(194, 70, 32);
+    width: 800px;
+    margin: 0 auto;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-size: 40px;
+  
+}
+
+.btn{
+    background-color: #ff240067;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: larger;
+    font-family: impact;
+    color: #fff;
+}
+
+.section-1 button{
+    background-color: brown;
+    position: absolute;
+    left: 1185px;
+    top: 20px;
+    width: 100px;
+    font-size: larger;
+    font-family: impact;
+}
+
+.section-1 button:hover{
+    background-color: burlywood;
+}
+
+.food-display{
+    background-color: #ced4e0;
+    width: 100%;
+    height: 350px;
+    text-align: center;
+}
+
+.food-display img{
+    padding: 15px;
+    width: 300px;
+    height: 300px;
+
+}
+
+#menu{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #d5ddf2;
+}
+
+#menu img{
+    width: 95%;
+    margin: 0 20px;
+}
+
+
+#menu-1{
+    position: absolute;
+    top: 1950px;
+    right: 170px;
+}
+
+#menu-2{
+    position: absolute;
+    top: 1950px;
+    right: 470px;
+}
+
+#menu button:hover{
+     background-color: #61040a;
+}
+
+/* About Section*/
+#About{
+    background-color: #d5ddf2;
+    font-family: cursive;
+    height: 450px;
+}
+
+.section-2 p{
+    width: 500px;
+    height: 250px;
+    display: inline-block;
+    overflow: hidden;
+    padding: 20px;
+    /*background-color: aliceblue;*/
+    border-radius: 16px;
+    font-size: large;
+     margin-bottom: 150px;
+   
+}
+
+.section-2 img{
+    border-radius: 50px;
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+    margin-left: 200;
+}
+.section-4{
+    text-align: center;
+   letter-spacing: 0.3em;
+   line-height: normal; 
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 400;
+   background-color: #61040a;
+   color: #fff;
+   height: max-content;
+}
+
